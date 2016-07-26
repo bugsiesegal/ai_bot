@@ -19,6 +19,7 @@ random_questions = random.choice(questions)
 random_positive_responses = random.choice(positive_responses)
 random_verifications = random.choice(verifications)
 random_nickname = random.choice(nickname)
+random_sports = random.choice(sports)
 
 print('Hello what is your name?')
 name = input()
