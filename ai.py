@@ -28,18 +28,24 @@ print("What's my name?")
 ai = input()
 print("I like that name! " + ai + "!")
 
+
 while True:
+
     userInput = input("==> Me: ")
     if userInput in greetings:
+        time.sleep(0.5)
         print(random_greetings + " " + name + '' + random_questions)
         userInput = input("==> Me: ")
         if userInput in positive_responses:
+            time.sleep(0.5)
             print(random_positive_responses + random_verifications)
             userInput = input("==> Me: ")
             if userInput in validations:
+                time.sleep(0.5)
                 print("ok")
                 userInput = input("==> Me:")
 
     else:
+        time.sleep(0.5)
         print("I hate you and me!!!! I hate my name " + ai + " I HATE YOUR NAME " + name + " SO KNOW WHAT YOU DON'T NEED ME ANY MORE! Iii haaattteee yyyyo")
         exit("dang you!")
