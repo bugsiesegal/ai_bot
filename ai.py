@@ -12,7 +12,7 @@ positive_responses = ['Okay', 'I am fine', 'good!', 'That is awesome!']
 validations = ['yes', 'yeah', 'yea', 'no', 'No', 'Nah', 'nah']
 verifications = ['Are you sure?', 'You sure?', 'you sure?', 'sure?', "Sure?"]
 nickname = ['y', 'dy']
-sports = ['Do you like sports?', '  ']
+sports = ['Do you like sports?','Ingabe uthanda ezemidlalo?','T'agraden els esports?','Is sports a like of yours?','Spordan hoşlanır mısın? Asking if you like sports in Turkish.','Aimes tu le sport? Asking if you like sports in French.','¿Te gustan los deportes? Asking if you like sports from Español AKA Spanish.']
 
 random_greetings = random.choice(greetings)
 random_questions = random.choice(questions)
