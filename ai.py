@@ -1,11 +1,11 @@
-
+import time
 import random
 
 print("Sentron, Talking Bot. Made by Jake Segal")
 s = Sound() 
 s.read('intro.mp3') 
 s.play()
-
+time.sleep(4)
 memory = []
 greetings = ['hola', 'hello', 'hi', 'hey!', 'Hello', 'Hi']
 questions = [' How are you?', ' How are you doing?', ' How you been?']
