@@ -12,6 +12,7 @@ positive_responses = ['Okay', 'I am fine', 'good!', 'That is awesome!']
 validations = ['yes', 'yeah', 'yea', 'no', 'No', 'Nah', 'nah']
 verifications = ['Are you sure?', 'You sure?', 'you sure?', 'sure?', "Sure?"]
 nickname = ['y', 'dy']
+sports = ['Do you like sports?','  ']
 
 random_greetings = random.choice(greetings)
 random_questions = random.choice(questions)
