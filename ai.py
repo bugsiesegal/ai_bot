@@ -4,7 +4,14 @@ import random
 
 print("Sentron, Talking Bot. Made by Jake Segal.")
 print('Booting up')
-time.sleep(4)
+time.sleep(1)
+print('downloading personality')
+time.sleep(1)
+print("deleting virus's")
+time.sleep(1)
+print("rebooting")
+time.sleep(2.5)
+
 memory = []
 greetings = ['hola', 'hello', 'hi', 'hey!', 'Hello', 'Hi']
 questions = [' How are you?', ' How are you doing?', ' How you been?']
@@ -12,7 +19,7 @@ positive_responses = ['Okay', 'I am fine', 'good!', 'That is awesome!']
 validations = ['yes', 'yeah', 'yea', 'no', 'No', 'Nah', 'nah']
 verifications = ['Are you sure?', 'You sure?', 'you sure?', 'sure?', "Sure?"]
 nickname = ['y', 'dy']
-sports = ['Do you like sports?','Ingabe uthanda ezemidlalo?','T'agraden els esports?','Is sports a like of yours?','Spordan hoşlanır mısın? Asking if you like sports in Turkish.','Aimes tu le sport? Asking if you like sports in French.','¿Te gustan los deportes? Asking if you like sports from Español AKA Spanish.']
+sports = ['Do you like sports?', '  ']
 
 random_greetings = random.choice(greetings)
 random_questions = random.choice(questions)
