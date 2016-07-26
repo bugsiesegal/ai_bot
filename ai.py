@@ -1,9 +1,9 @@
 import time
 import random
-import winsound
 
-print("Sentron, Talking Bot. Made by Jake Segal")
-winsound.PlaySound('sound.wav', winsound.SND_FILENAME)
+
+print("Sentron, Talking Bot. Made by Jake Segal.")
+print('Booting up')
 time.sleep(4)
 memory = []
 greetings = ['hola', 'hello', 'hi', 'hey!', 'Hello', 'Hi']
@@ -12,7 +12,7 @@ positive_responses = ['Okay', 'I am fine', 'good!', 'That is awesome!']
 validations = ['yes', 'yeah', 'yea', 'no', 'No', 'Nah', 'nah']
 verifications = ['Are you sure?', 'You sure?', 'you sure?', 'sure?', "Sure?"]
 nickname = ['y', 'dy']
-sports = ['Do you like sports?','  ']
+sports = ['Do you like sports?', '  ']
 
 random_greetings = random.choice(greetings)
 random_questions = random.choice(questions)
@@ -23,10 +23,15 @@ random_sports = random.choice(sports)
 
 print('Hello what is your name?')
 name = input()
+time.sleep(0.5)
 print('Hello ' + name + " it's nice to meet you")
+time.sleep(0.5)
 print("What's my name?")
 ai = input()
+time.sleep(0.5)
 print("I like that name! " + ai + "!")
+print('loading')
+time.sleep(4)
 
 
 while True:
