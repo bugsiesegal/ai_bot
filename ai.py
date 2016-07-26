@@ -1,10 +1,9 @@
 import time
 import random
+import winsound
 
 print("Sentron, Talking Bot. Made by Jake Segal")
-s = Sound() 
-s.read('intro.mp3') 
-s.play()
+winsound.PlaySound('sound.wav', winsound.SND_FILENAME)
 time.sleep(4)
 memory = []
 greetings = ['hola', 'hello', 'hi', 'hey!', 'Hello', 'Hi']
@@ -42,5 +41,3 @@ while True:
     else:
         print("I hate you and me!!!! I hate my name " + ai + " I HATE YOUR NAME " + name + " SO KNOW WHAT YOU DON'T NEED ME ANY MORE! Iii haaattteee yyyyo")
         exit("dang you!")
-
-
